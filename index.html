@@ -27,7 +27,7 @@
         <section id="ficha">
             <img src="imagens/Perfil.JPG" alt="Diego Moreira" class="foto">
             <h1>Diego Moreira</h1>
-            <h2>Desenvolvedor Front-End</h2>
+            <span id="title">Desenvolvedor Front-End</span>
             <p>Desenvolvedor web focado em criar páginas e interfaces profissionais, rápidas e responsivas. Atuo na construção de layouts bem estruturados, com atenção à experiência do usuário e à clareza visual.<br>
             Estou sempre aprimorando minhas habilidades técnicas e aplicando meus conhecimentos em projetos reais, com o objetivo de entregar soluções confiáveis, funcionais e alinhadas às expectativas de quem contrata.
             <div id="social">
@@ -188,10 +188,53 @@
 
             <article id="formacao">
                 <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">2005 - 2010</p>
+                        <h3 class="instituicao">Colégio Carlos Maul</h3>
+                        <p class="titulacao">Ensino Médio</p>
+                    </div>
+                    
+                    <div class="curso">
+                        <p class="periodo">2014 - 2017</p>
+                        <h3 class="instituicao">FAETEC</h3>
+                        <p class="titulacao">Técnico em Mecânica</p>
+                    </div>
+                    
+                    <div class="curso">
+                        <p class="periodo">2023 - 2024</p>
+                        <h3 class="instituicao">GED - Orlando, Flórida - USA</h3>
+                        <p class="titulacao">High School Diploma</p>
+                    </div>
+                    
+                    <div class="curso">
+                        <p class="periodo">2023 - 2025</p>
+                        <h3 class="instituicao">Estudonauta</h3>
+                        <p class="titulacao">Lógica de Programação</p>
+                    </div>
+                    
+                    <div class="curso">
+                        <p class="periodo">2025 - 2025</p>
+                        <h3 class="instituicao">Estudonauta</h3>
+                        <p class="titulacao">HTML 5 / CSS3</p>
+                    </div>
+                </div>
             </article> <!-- Fim article#formacao -->
 
-            <article id="projetos">
+            <article id="projeto">
                 <h2><i class="fa-solid fa-laptop-code"></i> Meus projetos</h2>
+                <div id="projeto-container">
+                    <div class="projeto">
+                        <iframe src="https://devdiegorosa.github.io/Projeto-Cordel/" frameborder="0" id="cordel">Projeto Cordel</iframe>
+                        <p class="periodo">2025</p>
+                        <h3 class="titulo">Projeto Cordel</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <details class="descricao">
+                            <summary>Saiba mais...</summary>
+                            <p>Este projeto consiste em um cordel usando o efeito parallax com HTML e CSS.</p>
+                        </details>
+                    </div>
             </article> <!-- Fim article#projetos -->
         </section>
     <footer>
