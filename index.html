@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
     <script src="https://kit.fontawesome.com/b21c8a1551.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="escuro">
     <header>
         <nav id="menu">
             <ul>
@@ -16,7 +16,7 @@
                 <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
                 <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
                 <li><a href="#projetos" class="link"><i class="fa-solid fa-laptop-code"></i></a></li>
-                <li><a href="#" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="#" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -45,7 +45,7 @@
 
                 <div id="skill-container">
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 1 -->
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-code"></i>
                                 HTML 5
@@ -59,7 +59,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 2 -->
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-code"></i>
                                 CSS 3
@@ -73,7 +73,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 3 -->
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-code"></i>
                                 JavaScript
@@ -87,7 +87,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 4 -->
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-code"></i>
                                 Git e GitHub
@@ -101,7 +101,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 5 -->
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-person-rays"></i>
                                 Comunicação
@@ -115,7 +115,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 6 -->
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-person-rays"></i>
                                 Trabalho em equipe
@@ -129,7 +129,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 7 -->
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-person-rays"></i>
                                 Adaptabilidade
@@ -143,7 +143,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 8 -->
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-person-rays"></i>
                                 Organização
@@ -157,7 +157,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 9 -->
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-person-rays"></i>
                                 Responsabilidade
@@ -171,7 +171,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 10 -->
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-person-rays"></i>
                                 Liderança
@@ -190,32 +190,32 @@
             <article id="formacao">
                 <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
 
-                <div id="formacao-container">
+                <div id="formacao-container"> <!-- Formação 1 -->
                     <div class="curso">
                         <p class="periodo">2005 - 2010</p>
                         <h3 class="instituicao">Colégio Carlos Maul</h3>
                         <p class="titulacao">Ensino Médio</p>
                     </div>
                     
-                    <div class="curso">
+                    <div class="curso"> <!-- Formação 2 -->
                         <p class="periodo">2014 - 2017</p>
                         <h3 class="instituicao">FAETEC</h3>
                         <p class="titulacao">Técnico em Mecânica</p>
                     </div>
                     
-                    <div class="curso">
+                    <div class="curso"> <!-- Formação 3 -->
                         <p class="periodo">2023 - 2024</p>
                         <h3 class="instituicao">GED - Orlando, Flórida - USA</h3>
                         <p class="titulacao">High School Diploma</p>
                     </div>
                     
-                    <div class="curso">
+                    <div class="curso"> <!-- Formação 4 -->
                         <p class="periodo">2023 - 2025</p>
                         <h3 class="instituicao">Estudonauta</h3>
                         <p class="titulacao">Lógica de Programação</p>
                     </div>
                     
-                    <div class="curso">
+                    <div class="curso"> <!-- Formação 5 -->
                         <p class="periodo">2025 - 2025</p>
                         <h3 class="instituicao">Estudonauta</h3>
                         <p class="titulacao">HTML 5 / CSS3</p>
@@ -225,17 +225,61 @@
 
             <article id="projetos"> 
                 <h2><i class="fa-solid fa-laptop-code"></i> Meus projetos</h2>
-
                 <div id="projeto-container">
+
                     <div class="projeto"> <!-- Projeto 1 -->
                         <img src="imagens/projeto-01-cordel.jpg" alt="projeto 1" class="foto">
                         <div class="projeto-info">
                             <p class="periodo">2025</p>
                             <h3 class="titulo">Projeto Cordel</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p class="project-summary">
+                                Projeto front-end desenvolvido com HTML5 e CSS3, inspirado no formato de
+                                cordel digital. O destaque do projeto é a aplicação do
+                                <strong>efeito Parallax</strong>, criando uma experiência visual envolvente e
+                                melhorando a navegação do usuário.
+                            </p>
+
                             <details class="descricao">
                                 <summary>Saiba mais...</summary>
-                                <p>Este projeto consiste em um cordel usando o efeito parallax com HTML e CSS.</p>
+                                <p>
+                                    Projeto desenvolvido com o objetivo de transformar um conteúdo literário no
+                                    formato de cordel em uma experiência web visualmente envolvente. A aplicação
+                                    foi construída utilizando HTML5 semântico e CSS3, com atenção especial à
+                                    organização do conteúdo, tipografia e hierarquia visual.
+                                </p>
+
+                                <p>
+                                    Um dos principais destaques do projeto é a implementação do
+                                    <strong>efeito Parallax</strong>, utilizado para criar profundidade visual e
+                                    tornar a navegação mais dinâmica, proporcionando uma leitura mais agradável
+                                    e imersiva ao usuário.
+                                </p>
+
+                                <h4>Tecnologias utilizadas</h4>
+                                <ul>
+                                    <li><i class="fa-regular fa-circle-check"></i> HTML5</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> CSS3</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Efeito Parallax com CSS</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> GitHub Pages</li>
+                                </ul>
+                                <br>
+
+                                <h4>Principais pontos trabalhados</h4>
+                                <ul>
+                                    <li><i class="fa-regular fa-circle-check"></i> Estruturação semântica de conteúdo com HTML5</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Estilização avançada com CSS3</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Implementação de efeito Parallax para enriquecimento visual</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Organização de seções e hierarquia de leitura</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Criação de layout responsivo e consistente</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Publicação do projeto utilizando GitHub Pages</li>
+                                </ul>
+
+                                <p>
+                                    <strong>Objetivo do projeto:</strong>
+                                    Demonstrar domínio dos fundamentos do desenvolvimento front-end, aplicando
+                                    boas práticas de estruturação, estilização e efeitos visuais para criar uma
+                                    página web funcional, atrativa e alinhada à experiência do usuário.
+                                </p>
                             </details>
                         </div>    
                     </div>
@@ -246,32 +290,44 @@
                             <p class="periodo">2025</p>
                             <h3 class="titulo">Projeto Android</h3>
                             <p>O projeto é um site simples com conteúdo de curiosidades sobre tecnologia (tema Android), criado com: HTML5, CSS3 e hospedado no GitHub Pages.</p>
+                            
                             <details class="descricao">
                                 <summary>Saiba mais...</summary>
                                 <p>
-                                    Desenvolvido um site com conteúdos de curiosidades sobre tecnologia, com destaque para fatos interessantes sobre o sistema Android. O site foi estruturado usando HTML5 semântico e estilizado com CSS3, com foco em clareza, organização visual e responsividade básica.
+                                    Projeto desenvolvido com o objetivo de apresentar informações e curiosidades
+                                    sobre o sistema operacional Android em uma interface web clara, organizada e
+                                    acessível. A aplicação foi construída utilizando HTML5 semântico e CSS3,
+                                    priorizando boas práticas de estruturação e organização de conteúdo.
                                 </p>
+
                                 <p>
-                                    Tecnologias utilizadas:
-                                    <ul>
-                                        <li>HTML5</li>
-                                        <li>CSS3</li>
-                                        <li>Hospedagem com GitHub Pages</li>
-                                    </ul>
-                            
+                                    O layout foi pensado para oferecer uma leitura agradável, com hierarquia
+                                    visual bem definida, uso adequado de seções e adaptação para diferentes
+                                    tamanhos de tela.
                                 </p>
+
+                                <h4>Tecnologias utilizadas</h4>
+                                <ul>
+                                    <li><i class="fa-regular fa-circle-check"></i> HTML5</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> CSS3</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> GitHub Pages</li>
+                                </ul>
+                                <br>
+
+                                <h4>Principais pontos trabalhados</h4>
+                                <ul>
+                                    <li><i class="fa-regular fa-circle-check"></i> Estruturação semântica com HTML5</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Organização de conteúdo e hierarquia visual</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Estilização com CSS3</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Criação de layout responsivo</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Publicação do projeto utilizando GitHub Pages</li>
+                                </ul>
+
                                 <p>
-                                    O que foi trabalhado neste projeto:
-                                    <ul>
-                                        <li>Estruturação semântica de conteúdo</li>
-                                        <li>Criação de layout visual limpo e organizado</li>
-                                        <li>Aplicação de estilos com CSS</li>
-                                        <li>Publicação online utilizando GitHub Pages</li>
-                                    </ul>
-                                </p>
-                                <p>
-                                    Objetivo:
-                                    Aplicar os conhecimentos de HTML e CSS na construção de um site funcional e visualmente agradável, além de demonstrar capacidade de publicar projetos online.
+                                    <strong>Objetivo do projeto:</strong>
+                                    Aplicar os fundamentos do desenvolvimento web na criação de uma página
+                                    informativa funcional, demonstrando domínio de HTML, CSS e boas práticas de
+                                    estruturação de conteúdo.
                                 </p>
                             </details>
                         </div>    
@@ -282,10 +338,48 @@
                         <div class="projeto-info">
                             <p class="periodo">2025</p>
                             <h3 class="titulo">Projeto Social</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p class="project-summary">
+                            Projeto front-end desenvolvido com HTML5 e CSS3, simulando a navegação entre
+                            diferentes redes sociais por meio de ícones interativos, que alteram o
+                            conteúdo exibido dinamicamente na interface.
+                            </p>
+                            
                             <details class="descricao">
                                 <summary>Saiba mais...</summary>
-                                <p>Este projeto consiste em um cordel usando o efeito parallax com HTML e CSS.</p>
+                                <section class="project-details">
+                                <p>
+                                    O projeto conta com um conjunto de ícones laterais que funcionam como
+                                    controles de navegação. Ao clicar em cada ícone, o conteúdo exibido na
+                                    interface principal é alterado, simulando a troca entre diferentes redes
+                                    sociais de forma dinâmica e intuitiva.
+                                </p>
+
+                                <h4>Tecnologias utilizadas</h4>
+                                <ul>
+                                    <li><i class="fa-regular fa-circle-check"></i> HTML5</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> CSS3</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Links interativos</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> GitHub Pages</li>
+                                </ul>
+                                <br>
+
+                                <h4>Principais pontos trabalhados</h4>
+                                <ul>
+                                    <li><i class="fa-regular fa-circle-check"></i> Estruturação semântica com HTML5</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Posicionamento e organização de elementos na tela</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Criação de navegação baseada em ícones</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Atualização dinâmica do conteúdo exibido</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Organização visual e consistência de interface</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Publicação do projeto utilizando GitHub Pages</li>
+                                </ul>
+
+                                <p>
+                                    <strong>Objetivo do projeto:</strong>
+                                    Aplicar conceitos de navegação e interação no desenvolvimento front-end,
+                                    criando uma interface funcional e intuitiva que simula a alternância de
+                                    conteúdos com base na ação do usuário.
+                                </p>
+                                </section>
                             </details>
                         </div>    
                     </div>
@@ -295,10 +389,54 @@
                         <div class="projeto-info">
                             <p class="periodo">2025</p>
                             <h3 class="titulo">Projeto Login</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p class="project-summary">
+                            Projeto front-end desenvolvido com HTML5 e CSS3, criando uma interface de
+                            <strong>login</strong> moderna e responsiva, com foco em usabilidade,
+                            organização visual e boas práticas de estruturação.
+                            </p>
+                            
                             <details class="descricao">
                                 <summary>Saiba mais...</summary>
-                                <p>Este projeto consiste em um cordel usando o efeito parallax com HTML e CSS.</p>
+                                <section class="project-details">
+                                <p>
+                                    A página foi organizada para destacar os elementos essenciais do formulário,
+                                    como campos de entrada, botões e mensagens auxiliares, garantindo clareza e
+                                    acessibilidade na navegação. O layout também foi pensado para se adaptar a
+                                    diferentes tamanhos de tela, mantendo a consistência do design em desktop e
+                                    dispositivos móveis.
+                                </p>
+
+                                <h4>Tecnologias utilizadas</h4>
+                                <ul>
+                                    <li><i class="fa-regular fa-circle-check"></i> HTML5</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> CSS3</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Layout responsivo</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> GitHub Pages</li>
+                                </ul>
+
+                                <h4>Principais pontos trabalhados</h4>
+                                <ul>
+                                    <li><i class="fa-regular fa-circle-check"></i> Estruturação semântica de formulário com HTML5</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Estilização e organização visual com CSS3</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Hierarquia de informação e foco em usabilidade</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Layout responsivo e consistente em diferentes telas</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Boas práticas de organização de código</li>
+                                    <li><i class="fa-regular fa-circle-check"></i> Publicação do projeto utilizando GitHub Pages</li>
+                                </ul>
+
+                                <p>
+                                    <strong>Objetivo do projeto:</strong>
+                                    Demonstrar domínio dos fundamentos de front-end na criação de uma interface
+                                    de login bem estruturada e visualmente profissional, reforçando conceitos de
+                                    formulários, layout e experiência do usuário.
+                                </p>
+
+                                <p>
+                                    <a href="#" target="_blank" rel="noopener">
+                                    Visualizar projeto
+                                    </a>
+                                </p>
+                                </section>
                             </details>
                         </div>    
                     </div>

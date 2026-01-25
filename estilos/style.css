@@ -23,11 +23,22 @@
   --fundo-card: #ffffff;
 }
 
+body.escuro {
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #ff5522;
+  --destaque-inverso: #a73917;
+  --fundo-card: #444444;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5em;
+  font-size: 0.9em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition: background-color 0.5s, color 0.5s;
 }
 
 header {
@@ -239,7 +250,11 @@ article h2 {
 
 #projeto-container p {
   padding: 20px 0;
-  line-height: 1.6em;
+}
+
+#projeto-container ul {
+  list-style: none;
+  line-height: 1.5em;
 }
 
 footer {
